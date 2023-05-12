@@ -1,0 +1,73 @@
+* {
+    font-family: Microsoft YaHei;
+}
+
+.QStatusBar {
+    color: #0000ff;
+    font-size: 14px;
+}
+
+.QProgressBar{
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    background: #E6E6E6;
+    background: #444549;
+    border-radius: 0px;
+}
+.QProgressBar::chunk {
+    border: none;
+    background: #00A0E6;
+    border-radius: 0px;
+}
+
+#totalWidget .QProgressBar {
+    min-height:21.5px;
+    max-height:21.5px;
+}
+
+.QLineEdit[echoMode="2"] {
+    lineedit-password-character: 42;
+}
+
+QComboBox {
+    font-family: "SimSun";
+}
+
+/* 下拉后，整个下拉窗体样式 */
+QComboBox QAbstractItemView {
+    outline: 0px solid gray;   /* 选定项的虚框 */
+}
+
+/* 下拉后，整个下拉窗体每项的样式 */
+QComboBox QAbstractItemView::item {
+    min-height: 20px;   /* 项的高度（设置pComboBox->setView(new QListView());后，该项才起作用） */
+}
+
+.QLineEdit,.QDateTimeEdit,.QSpinBox
+{
+    min-height:21px;
+    max-height:21px;
+    border-radius:0px;
+    border:1px solid #adadad;
+}
+
+.QLineEdit:hover,
+.QDateTimeEdit:hover,
+.QSpinBox:hover
+{
+    border-radius:0px;
+    border:1px solid #0078d7;
+}
+
+.QDateTimeEdit::drop-down
+{
+    border:none;
+    width:30px;
+}
+
+#radioWidget
+{
+    border: 1px solid #adadad;
+    background: #ffffff;
+}
