@@ -186,7 +186,7 @@ void FolderMoveCopy::onMoveCopyTriggered(QAction *act)
     ui->moveCopyAct->setText(mType);
     ui->moveCopyAct->setToolTip(mTypeTip);
     ui->moveCopyAct->setStatusTip(mTypeTip);
-    ui->moveCopyAct->setIcon(QIcon(ui->moveRbn->isChecked() ? ":/icons/movef.svg"
+    ui->moveCopyAct->setIcon(QIcon(ui->moveRbn->isChecked() ? ":/icons/move.svg"
                                                             : ":/icons/edit-copy.svg"));
 }
 
@@ -355,7 +355,7 @@ void FolderMoveCopy::onChecked()
     ui->moveAct->setChecked(ui->moveRbn->isChecked());
     ui->moveCopyAct->setToolTip(mTypeTip);
     ui->moveCopyAct->setStatusTip(mTypeTip);
-    ui->moveCopyAct->setIcon(QIcon(ui->moveRbn->isChecked() ? ":/icons/movef.svg"
+    ui->moveCopyAct->setIcon(QIcon(ui->moveRbn->isChecked() ? ":/icons/move.svg"
                                                             : ":/icons/edit-copy.svg"));
 }
 
