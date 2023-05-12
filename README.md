@@ -33,6 +33,5 @@
 ![image5](https://github.com/snolkmg/FolderMoveCopy/blob/main/screenshot/image5.png)
 
 ### 感谢
-savelog: [https://github.com/feiyangqingyun/QWidgetDemo](https://github.com/feiyangqingyun/QWidgetDemo)
-
-SingleApplication: [https://github.com/itay-grudev/SingleApplication](https://github.com/itay-grudev/SingleApplication)
+- **savelog**: [https://github.com/feiyangqingyun/QWidgetDemo](https://github.com/feiyangqingyun/QWidgetDemo)
+- **SingleApplication**: [https://github.com/itay-grudev/SingleApplication](https://github.com/itay-grudev/SingleApplication)
