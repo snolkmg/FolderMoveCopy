@@ -2,11 +2,11 @@
 
 ![image1](https://github.com/snolkmg/FolderMoveCopy/blob/main/screenshot/image1.png)
 
-#### 1.选择源文件夹
+#### 1.选择源文件（夹）
 
 ![image6](https://github.com/snolkmg/FolderMoveCopy/blob/main/screenshot/image6.png)
 
-三个按钮，分别对应三种方式（右边按钮是第一种方式）：
+三个按钮，分别对应三种方式（右边按钮对应第一种方式）：
 
 - 打开文件选择框，选择文件（夹）；
 
